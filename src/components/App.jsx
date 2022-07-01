@@ -21,6 +21,7 @@ function App() {
       <h1>{headingText}</h1>
       <input type="text" placeholder="What's your name?" />
       <button
+        onClick={handleClick}
         style={{ backgroundColor: isMousedOvercolor ? "black" : "white" }}
         onMouseOver={MouseOver}
         onMouseOut={MouseOut}
